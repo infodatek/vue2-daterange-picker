@@ -21,6 +21,7 @@
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name vue2-daterange-picker ./src/index.js",
     "build": "vue-cli-service build --target lib --name vue2-daterange-picker ./src/index.js",
+    "build-project": "vue-cli-service build --target lib --name vue2-daterange-picker ./src/index.js",
     "docs:dev": "concurrently \"npm run components:watch\" \"vuepress dev docs\"",
     "docs:build": "vuepress build docs",
     "prepublishOnly": "npm run lib",
