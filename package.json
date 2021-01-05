@@ -1,8 +1,8 @@
 {
   "name": "vue2-daterange-picker",
-  "version": "0.6.2",
+  "version": "0.6.3",
   "description": "Vue2 date range picker based on https://github.com/dangrossman/bootstrap-daterangepicker (no jQuery)",
-  "author": "Nikola Kostadinov <nikolakk@gmail.com>",
+  "author": "Dwayne Hulsman <dhulsman@infodatek.com>, Nikola Kostadinov <nikolakk@gmail.com>",
   "main": "dist/vue2-daterange-picker.umd.min.js",
   "jsnext:main": "dist/vue2-daterange-picker.umd.min.js",
   "private": false,
@@ -20,6 +20,7 @@
     "components:watch": "watch \"npm run components:parse\" ./src",
     "lint": "vue-cli-service lint",
     "lib": "vue-cli-service build --target lib --name vue2-daterange-picker ./src/index.js",
+    "build": "vue-cli-service build --target lib --name vue2-daterange-picker ./src/index.js",
     "docs:dev": "concurrently \"npm run components:watch\" \"vuepress dev docs\"",
     "docs:build": "vuepress build docs",
     "prepublishOnly": "npm run lib",
